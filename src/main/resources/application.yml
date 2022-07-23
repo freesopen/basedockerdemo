@@ -1,0 +1,6 @@
+server:
+  port: 9999
+  undertow:
+    threads:
+      io: 1
+      worker: 8
